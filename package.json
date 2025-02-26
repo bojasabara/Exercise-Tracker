@@ -1,0 +1,15 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "install-client": "cd client && npm install",
+    "install-server": "cd backend && npm install",
+    "install": "npm run install-client && npm run install-server",
+    "build": "cd client && npm run build",
+    "start": "cd backend && node server.js"
+  }
+}
